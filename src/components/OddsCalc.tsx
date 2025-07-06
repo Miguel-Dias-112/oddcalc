@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 function OddCalc({valor, odd }: {valor?: number | undefined, odd?: number | undefined, }) {
   const resultado = (valor !== undefined && odd !== undefined) ? (valor * odd).toFixed(2) : '0.00';

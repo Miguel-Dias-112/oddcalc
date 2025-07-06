@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 
 function CalcRisco({ oddMenor, oddMaior }: {  oddMenor: number, oddMaior: number }) {
