@@ -27,6 +27,8 @@ function App() {
         <OddCalc valor={valorMaior} odd={oddMaior}></OddCalc>
         <OddCalc valor={valorMenor} odd={oddMenor}></OddCalc>
       </div>
+      <iframe  src="https://www.oddsagora.com.br/football/world/copa-do-mundo-de-clubes-fifa/"/>
+      
     </div>
   )
 }
