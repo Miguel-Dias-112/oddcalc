@@ -10,7 +10,7 @@ function OddCalc({valor, odd }: {valor?: number | undefined, odd?: number | unde
             
               <text type="number" className='valor'>Valor: {valor?.toFixed(2)}rs</text>
             <span className='odd'>Odd: {odd}</span>
-              <span className='resultado'>valor apostado: {resultado}</span>
+              <span className='resultado'>Retorno: {resultado}</span>
           </div>
           
       </main>
