@@ -9,8 +9,8 @@ function App() {
   const [oddMenor, setOddMenor] = useState(0)
   const [oddMaior, setOddMaior] = useState(0)
 
-  const valorMenor = banca * (oddMenor/(oddMenor + oddMaior));
-  const valorMaior = banca * (oddMaior/(oddMenor + oddMaior));  
+  const valorMenor = banca/oddMaior;
+  const valorMaior = banca - banca /oddMaior;  
   return (
     <div className  ="App">
       <h2>Caluladora Odds</h2>
